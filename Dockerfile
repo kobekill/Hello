@@ -9,5 +9,3 @@ EXECUTAR o apt-get update && \
     árvore \
     vim && \
   rm -rf / var / lib / apt / lists / * && apt-get clean && apt-get purge
-
-EXECUTAR echo "export JAVA_OPTS = \" -Dapp.env = teste \ " " > /usr/local/tomcat/bin/setenv.sh
